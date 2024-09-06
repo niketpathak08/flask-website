@@ -5,7 +5,9 @@
 {% endblock %}
 
 {% block body %}
-<div class="container mt-5 p-4 bg-white rounded shadow-lg" style="max-width: 900px;">
+{%include "nav.html" %}
+    <div class="container mt-5 p-4 bg-white rounded shadow-lg">
+
     <!-- Header Section -->
     <div class="text-center mb-5">
         <h1 class="display-4 font-weight-bold">Profession Pursuit</h1>
@@ -22,7 +24,7 @@
 
     <!-- Open Positions Section -->
     <section class="mb-5 text-center">
-        <h2 class="mb-4">Job Openings</h2>
+        <h2 class="mb-4">Open Positions</h2>
         <div class="text-muted">
           <div class="container mt-5">
               <div class="row">
@@ -38,7 +40,9 @@
 
     <!-- Contact Us Button -->
     <div class="text-center">
-        <button class="btn btn-primary btn-lg">Contact Us</button>
+        <a href =" mailto:niketpathak)@gmail.com?subject=Questions%20about%20Job%20Openings&body=My%20name%20%3A%3Cyour%20name%3E%0D%0AMy%20Question%3A%3CQuestion%3E%0D%0A" type= "button" class="btn btn-primary btn-lg">Contact Us</a>
     </div>
 </div>
+{%include "footer.html" %}
+
 {% endblock %}
