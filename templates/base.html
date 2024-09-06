@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Specifies the document type and version of HTML used -->
+    <meta charset="UTF-8">
+    <!-- Sets the character encoding for the document to UTF-8, ensuring it handles most characters correctly -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Ensures compatibility with older versions of Internet Explorer -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ensures that the page is responsive by setting the viewport width to the device's width and initial scale to 1.0 -->
+
+    <link rel = "stylesheet" href=" {{url_for('static', filename = 'css/main.css')}}">
+    {% block head %}{% endblock %}
+    <!-- Placeholder for additional content that will be inserted into the <head> section of the page in child templates -->
+</head>
+<body>
+    {% block body %}{% endblock %}
+    <!-- Placeholder for the main content of the page that will be inserted in child templates -->
+</body>
+</html>
