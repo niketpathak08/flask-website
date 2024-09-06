@@ -25,7 +25,7 @@ JOBS = [
         "id": 4,
         "title": "UX Designer",
         "location": "Seattle, WA",
-        "salary": "$100,000"
+        "salary": "$120,000"
     },
     {
         "id": 5,
